@@ -1,0 +1,17 @@
+Elm.Instatrack = Elm.Instatrack || {};
+Elm.Instatrack.make = function (_elm) {
+   "use strict";
+   _elm.Instatrack = _elm.Instatrack || {};
+   if (_elm.Instatrack.values)
+   return _elm.Instatrack.values;
+   var _op = {},
+   _N = Elm.Native,
+   _U = _N.Utils.make(_elm),
+   _L = _N.List.make(_elm),
+   $moduleName = "Instatrack",
+   $Graphics$Element = Elm.Graphics.Element.make(_elm);
+   var main = $Graphics$Element.show("Hello World!");
+   _elm.Instatrack.values = {_op: _op
+                            ,main: main};
+   return _elm.Instatrack.values;
+};
